@@ -1,0 +1,7 @@
+﻿1) CREATING DATABASE
+
+Run the following commands in the command prompt:
+
+dotnet ef migrations add Initial
+dotnet ef database update
+// dotnet ef database update Updates the database with the migration we just created.
